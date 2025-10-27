@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30512c41-6193-492a-a2cf-26362cf751ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/enums/DomainTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/enums/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/enums/UserRoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/exception/ServerSideError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/filter/LogEndPointAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/filter/LogEndPointFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/PayloadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/jvm.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/maven.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/certimetergoup/easycv/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/certimetergoup/easycv/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="34SlWmCjHHyiNdwbDorn2hrLbQ3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.commons [clean].executor": "Run",
+    "Maven.commons [compile].executor": "Run",
+    "Maven.commons [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "100-user-api-crud",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/giuseppe.falcone/EasyCV/commons/src/main/java/com/certimetergoup/easycv/enums",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giuseppe.falcone\EasyCV\commons\src\main\java\com\certimetergoup\easycv\enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giuseppe.falcone\EasyCV\commons\src\main\java\com\certimetergoup\easycv\commons" />
+      <recent name="C:\Users\giuseppe.falcone\EasyCV\commons\src\main\java\com\certimetergoup\easycv" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.certimetergoup.easycv.exception" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30512c41-6193-492a-a2cf-26362cf751ff" name="Changes" comment="" />
+      <created>1761214889817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761214889817</updated>
+    </task>
+    <servers />
+  </component>
+</project>
