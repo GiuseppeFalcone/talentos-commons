@@ -6,6 +6,7 @@ import org.springframework.http.HttpStatus;
 @AllArgsConstructor
 public enum ResponseEnum {
     SUCCESS (200, "success", HttpStatus.OK),
+    CREATED (201, "created", HttpStatus.CREATED),
     BAD_REQUEST (400, "Invalid Request", HttpStatus.BAD_REQUEST),
     UNAUTHORIZED (401, "Invalid password", HttpStatus.UNAUTHORIZED),
     FORBIDDEN (403, "access forbidden, user does not have required role", HttpStatus.FORBIDDEN),
