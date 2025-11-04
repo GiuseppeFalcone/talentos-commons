@@ -1,4 +1,4 @@
-package com.certimetergroup.easycv.commons.filter;
+package com.certimetergroup.easycv.commons.filter.logendpoint;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -6,14 +6,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 
 @Component
-//@Order(2)
 public class LogEndPointFilter extends OncePerRequestFilter {
     private static final Logger logger = LoggerFactory.getLogger(LogEndPointFilter.class);
 
@@ -35,8 +33,7 @@ public class LogEndPointFilter extends OncePerRequestFilter {
         try {
             filterChain.doFilter(request, response);
         } finally {
-            if (logger.isInfoEnabled())
-                logger.info("response: {}", response.getStatus());
+            logger.info("response: {}", response.getStatus());
             logger.info("---------- END - {} {}", method, endpoint);
         }
     }
