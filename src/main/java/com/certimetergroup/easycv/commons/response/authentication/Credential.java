@@ -1,4 +1,4 @@
-package com.certimetergroup.easycv.commons.dto.authentication;
+package com.certimetergroup.easycv.commons.response.authentication;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;

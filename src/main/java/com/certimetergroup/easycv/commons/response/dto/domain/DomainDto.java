@@ -1,19 +1,22 @@
-package com.certimetergroup.easycv.commons.dto.domain;
+package com.certimetergroup.easycv.commons.response.dto.domain;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@Builder @Getter
+@Builder
+@Getter
+@Setter
 @ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class CreateDomainDto {
+public class DomainDto {
+    @NotNull(message = "Domain id not provided")
+    @EqualsAndHashCode.Include
+    private Long domainId;
+
     @NotNull(message = "Domain name not provided")
     @NotBlank(message = "Domain name not provided")
     @EqualsAndHashCode.Include

@@ -1,15 +1,17 @@
-package com.certimetergroup.easycv.commons.dto.user;
+package com.certimetergroup.easycv.commons.response.dto.user;
 
 import com.certimetergroup.easycv.commons.enumeration.UserRoleEnum;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 
 import java.util.Set;
 
-@Getter @Setter @ToString
-@SuperBuilder
+@Getter
+@Setter
+@ToString
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDto {
@@ -36,5 +38,6 @@ public class UserDto {
 
     private Set<Long> employeeIds;
 
+    @Valid
     private Set<UserDomainOptionDto> userDomainOptions;
 }

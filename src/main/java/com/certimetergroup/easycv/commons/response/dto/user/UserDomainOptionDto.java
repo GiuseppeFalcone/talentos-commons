@@ -1,4 +1,4 @@
-package com.certimetergroup.easycv.commons.dto.user;
+package com.certimetergroup.easycv.commons.response.dto.user;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.*;

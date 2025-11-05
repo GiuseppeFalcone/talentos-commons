@@ -1,4 +1,4 @@
-package com.certimetergroup.easycv.commons.dto;
+package com.certimetergroup.easycv.commons.response;
 
 
 import com.certimetergroup.easycv.commons.enumeration.ResponseEnum;
