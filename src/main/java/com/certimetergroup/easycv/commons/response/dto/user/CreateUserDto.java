@@ -3,11 +3,15 @@ package com.certimetergroup.easycv.commons.response.dto.user;
 import com.certimetergroup.easycv.commons.enumeration.UserRoleEnum;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Builder;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class CreateUserDto {
     @NotNull(message = "Name cannot be null")
     private String firstName;

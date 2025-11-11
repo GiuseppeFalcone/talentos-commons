@@ -3,15 +3,12 @@ package com.certimetergroup.easycv.commons.response.authentication;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
-@Builder
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Credential {
-    @NotBlank(message = "username required")
-    private String username;
-
-    @NotBlank(message = "password required")
-    private String password;
+public class RefreshToken {
+    @NotBlank(message = "Refresh Token required")
+    String refreshToken;
 }

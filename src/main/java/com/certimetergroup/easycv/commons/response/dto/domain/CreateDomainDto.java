@@ -2,16 +2,16 @@ package com.certimetergroup.easycv.commons.response.dto.domain;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@Builder @Getter
+@Builder
+@Getter
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class CreateDomainDto {
     @NotNull(message = "Domain name not provided")
