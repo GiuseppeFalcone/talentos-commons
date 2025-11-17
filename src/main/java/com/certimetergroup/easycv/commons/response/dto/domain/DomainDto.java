@@ -25,5 +25,5 @@ public class DomainDto {
     private String domainName;
 
     @Builder.Default
-    private Set<String> domainOptions = new HashSet<>();
+    private Set<DomainOptionDto> domainOptions = new HashSet<>();
 }

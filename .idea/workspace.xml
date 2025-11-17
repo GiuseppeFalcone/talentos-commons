@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5427ba-085e-4276-ae75-eff99e36dc15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/authentication/AccAndRefresh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/authentication/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/user/UserLightDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/DomainOptionDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/enumeration/UserRoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/enumeration/UserRoleEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/authentication/Credential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/authentication/Credential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/CreateDomainDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/CreateDomainDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/DomainDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/DomainDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/user/CreateUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/user/CreateUserDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.commons [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "features/111-login-api-integration/develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.commons [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;features/111-login-api-integration/develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6f5427ba-085e-4276-ae75-eff99e36dc15" name="Changes" comment="" />
@@ -59,5 +51,13 @@
       <updated>1762339719746</updated>
     </task>
     <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
