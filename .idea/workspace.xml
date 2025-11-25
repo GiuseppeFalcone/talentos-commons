@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5427ba-085e-4276-ae75-eff99e36dc15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/DomainOptionDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/DomainDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/domain/DomainDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/user/UserDomainOptionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/certimetergroup/easycv/commons/response/dto/user/UserDomainOptionDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +36,10 @@
     &quot;Maven.commons [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;features/111-login-api-integration/develop&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/giuseppe.falcone/EasyCV/commons&quot;
   }
 }</component>
   <component name="TaskManager">
