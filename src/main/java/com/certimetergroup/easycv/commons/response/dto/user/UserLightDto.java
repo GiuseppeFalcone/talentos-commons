@@ -27,5 +27,7 @@ public class UserLightDto {
     @NotNull
     private UserRoleEnum role;
 
+    private String email;
+
     private String refreshToken;
 }
