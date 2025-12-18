@@ -1,1 +1,1 @@
-com.certimetergroup.easycv.commons.filter.logendpoint.autoconfigure.LogEndPointAutoConfiguration
+autoconfigure.logendpoint.filter.com.certimetergroup.talentos.commons.LogEndPointAutoConfiguration
