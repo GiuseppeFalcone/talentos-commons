@@ -180,8 +180,4 @@ This is a shared library. Please ensure:
 
 ## License
 
-Copyright © 2024 Certimeter Group
-
-## Contact
-
-For questions or issues, please contact the Talentos development team.
+This project is licensed under the MIT License.
